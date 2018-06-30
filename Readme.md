@@ -11,5 +11,5 @@ Then, to initialize the database for three contexts:
 * `dotnet ef database update --context DoctorContext`
 
 
-Copyright 2018 KevDever
+Copyright 2018 KevDever  
 MIT License.  See License.md
