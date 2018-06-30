@@ -5,7 +5,7 @@ To initialize the migrations, run (cli commands below):
 * `dotnet ef migrations add CreateDoctorSchema --context DoctorContext -o Data/Migrations/Doctors`
 * `dotnet ef migrations add CreateCarsSchema --context CarContext -o Data/Migrations/Cars`
 
-Then, to initialize the databse for three contexts:
+Then, to initialize the database for three contexts:
 * `dotnet ef database update --context AnimalContext`
 * `dotnet ef database update --context CarContext`
 * `dotnet ef database update --context DoctorContext`
