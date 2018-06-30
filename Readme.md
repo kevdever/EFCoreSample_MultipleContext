@@ -1,4 +1,4 @@
-# Sample project showing three Entity Framework Core contexts in the same databse.
+# Sample project showing three Entity Framework Core contexts in the same database.
 
 To initialize the migrations, run (Powershell commands below):
 * `dotnet ef migrations add CreateAnimalsSchema --context AnimalContext -o Data/Migrations/Animals`
